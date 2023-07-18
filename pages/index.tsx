@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import EventList from '@/components/EventList'
+import ContactInfo from '@/components/ContactInfo'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -31,8 +32,14 @@ export default function Home() {
       <div>
         <section>
         <h1 className='flex items-center justify-center text-3xl font-extrabold'>For More Information</h1>
-        
+
+          <ContactInfo/>
+
         </section>
+      </div>
+
+      <div className='flex items-center justify-center'>
+        <h6 className='text-sm p-5'>IEEE AUI student branch @2023</h6>
       </div>
 
 

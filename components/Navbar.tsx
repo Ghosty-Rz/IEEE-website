@@ -31,11 +31,11 @@ function Navbar() {
   return (
     
     
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 '>
+    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         
         <header className={`${isScrolled && 'bg-gray-800'}`}>
 
-        <div className='flex justify-between items-center text-white m-auto max-w-[1240px] p-2'>
+        <div className='flex justify-between items-center text-white m-auto max-w-[1240px] p-2 scrollbar scrollbar-thumb-blue-950'>
             <Link href='/'>
                 <img 
                 src="https://i.postimg.cc/6pdB9C7s/Untitled85-20230717233556.png"

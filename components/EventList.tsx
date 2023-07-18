@@ -1,10 +1,11 @@
 import React from 'react'
 import EventData from '@/Data/EventData'
 
+
 function EventList() {
   return (
     <div>
-        <div className='mt-5 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-14 '>
+        <div className='scrollbar scrollbar-thumb-blue-950 mt-5 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-14'>
       {EventData.map(event => (
         <Event 
           key={event.id}

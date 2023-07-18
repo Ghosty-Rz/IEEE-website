@@ -2,8 +2,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Hero from '../components/Hero'
-import EventList from '@/components/EventList'
 import ContactInfo from '@/components/ContactInfo'
+import LimitedEventList from '@/components/LimitedEventList'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main>
+      
     {/* Head */}
       <Head>
         <title>IEEE - Home</title>
@@ -24,7 +25,7 @@ export default function Home() {
         <section>
           <h1 className='flex items-center justify-center text-3xl font-extrabold'>Events</h1>
           
-            <EventList />
+            <LimitedEventList />
           
         </section>
       </div>
@@ -42,7 +43,7 @@ export default function Home() {
         <h6 className='text-sm p-5'>IEEE AUI student branch @2023</h6>
       </div>
 
-
+  
     </main>
   )
 }

@@ -14,9 +14,17 @@ export default function Home() {
         <title>IEEE - Home</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <Hero name='IEEE' message='AUI IEEE Student Branch encourages innovation and creativity' />
-    {/* Header */}
       
+      <Hero name='IEEE' message='AUI IEEE Student Branch encourages innovation and creativity' />
+    {/* Header : which is the navbar*/}
+      
+      <div>
+        <section>
+          <h2 className='flex items-center justify-center text-2xl font-extrabold'>Events</h2>
+          
+        </section>
+      </div>
+
 
     </main>
   )

@@ -12,7 +12,7 @@ function ContactInfo() {
             <h1 className='flex p-2 space-x-4 text-xl font-bold'><AiFillInstagram size={32}/> <span>@ieee.aui</span></h1></a>
             
             <a href='https://www.google.com/intl/fr/gmail/about/' target="_blank" rel="noopener noreferrer">
-            <h1 className='flex p-2 space-x-4 text-xl font-bold'><MdEmail size={30}/> <span>ieeestudentbranch@aui.ma</span></h1></a>
+            <h1 className='flex p-2 space-x-12 text-xl font-bold'><MdEmail size={30} className='absolute'/> <span>ieeestudentbranch@aui.ma</span></h1></a>
         </div>
     </div>
     </div>

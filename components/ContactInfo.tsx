@@ -16,8 +16,7 @@ function ContactInfo() {
             <h1 className='flex p-2 space-x-12 text-xl font-bold'><MdEmail size={30} className='absolute'/> <span>ieeestudentbranch@aui.ma</span></h1></a>
         
             <a href='https://portfolio-asmae.vercel.app/' target="_blank" rel="noopener noreferrer">
-            <h1 className='flex p-2 space-x-4 text-xl font-bold'><LuClipboardSignature />
-<span>The portfolio of one of our co-founder</span></h1></a>
+            <h1 className='flex p-2 space-x-4 text-xl font-bold'><LuClipboardSignature size={30}/><span>The portfolio of one of our co-founder</span></h1></a>
 
         </div>
     </div>
